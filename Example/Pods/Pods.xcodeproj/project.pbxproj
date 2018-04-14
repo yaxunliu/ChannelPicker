@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07F0D58CB4AD4218417EA0D6FD3FE961 /* Pods-ChannelPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D34EBA7EBB415E7FE180CAFDA6577E9 /* Pods-ChannelPicker_Tests-dummy.m */; };
+		31B180FF0BD4B6C7A3A06BB6C1F2C37A /* YXChannelHeader.xib in Sources */ = {isa = PBXBuildFile; fileRef = E05A44785C1DB7B561EF6406BCF68607 /* YXChannelHeader.xib */; };
+		34011F3024D0F662B8C9E35770E1573D /* YXChannelCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 23C4AE270A80B7AF596F535995302FA8 /* YXChannelCell.xib */; };
+		4D2DA0998EBCD424974B32F24474E4FB /* YXChannelCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D07333F2BDD1DA8B9DA6367866147BE6 /* YXChannelCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F5373BC17B9F78610CD1F667015513E /* Pods-ChannelPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16CB3B5242FACCBBEA6D90719E29D60E /* Pods-ChannelPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78A41661E9E25F5BB9E2A98C89261AEB /* Pods-ChannelPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B848A0271B6C357D4526EBEC7A2EE /* Pods-ChannelPicker_Example-dummy.m */; };
+		84F6537B2F244BB4FA8491207BD551AC /* ChannelPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C5AEEF889B63C75AB8861CB28E392 /* ChannelPicker-dummy.m */; };
+		91E0F7162EB2E692E0207689A35C59D6 /* Pods-ChannelPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F95B793A050BB5272FE330C6FC08C672 /* Pods-ChannelPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E5A9979BA8AFA0696AF44DCB9C8C667 /* YXChannelViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 64078A1E6D7B387BBBA2A686B05662A9 /* YXChannelViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A41AA4C3BD303974A5316128153BD9B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C7B6FEA7DBBDA7682A19EBF5057FEB90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D34620D2FC9DF1E6A23396573573A5DC /* YXChannelHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DEDC22C066F717C69349D7AA4D9F08 /* YXChannelHeader.m */; };
+		DFEC89729C9DE0D095AA3F9809E70AAE /* ChannelPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C66048B1237DA0F67992EEEA65728299 /* ChannelPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E61F8195B418D994A28E0E900267A617 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E9816C03941686956CEBAE1FC1948423 /* YXChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CD258526A5B9CB6200AA7129BCD740 /* YXChannelViewController.m */; };
+		F87296C15DDF33EB17AE84DA1967D7AE /* YXChannelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BC50BA160A2A1293B8773CE01AAA69 /* YXChannelCell.m */; };
+		F9880DE84EFDC482991B6FBA8445BC9C /* YXChannelHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = DB70CFFD2C5605F728FD0926331C8038 /* YXChannelHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		501E3F629A01EB80C12D7019B6E35E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F88B9972CB40817EB0F97CD69E968664;
+			remoteInfo = ChannelPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C1EDDF94E30D9E0965AE8C92963AE7A /* Pods-ChannelPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChannelPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0ED24B85BC4754A3D0E5D424BA215F42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1509C2BF303624F37B8D121382484162 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16CB3B5242FACCBBEA6D90719E29D60E /* Pods-ChannelPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChannelPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		19CD258526A5B9CB6200AA7129BCD740 /* YXChannelViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YXChannelViewController.m; path = ChannelPicker/Classes/YXChannelViewController.m; sourceTree = "<group>"; };
+		23C4AE270A80B7AF596F535995302FA8 /* YXChannelCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = YXChannelCell.xib; path = ChannelPicker/Classes/YXChannelCell.xib; sourceTree = "<group>"; };
+		2651A1A529B76AB72F67B332FB454C89 /* ChannelPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ChannelPicker.podspec; sourceTree = "<group>"; };
+		288EC26BBF12B0F1C786595F1EA969DD /* Pods-ChannelPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChannelPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		34BC50BA160A2A1293B8773CE01AAA69 /* YXChannelCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YXChannelCell.m; path = ChannelPicker/Classes/YXChannelCell.m; sourceTree = "<group>"; };
+		3AEE47D361CA8F61804F27BDEBCE7992 /* Pods-ChannelPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChannelPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4A5384FFA27D8FA97F7445EF9B823503 /* Pods-ChannelPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChannelPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D34EBA7EBB415E7FE180CAFDA6577E9 /* Pods-ChannelPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChannelPicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		4F8B848A0271B6C357D4526EBEC7A2EE /* Pods-ChannelPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChannelPicker_Example-dummy.m"; sourceTree = "<group>"; };
+		51C5FC69C7EF32A63B8B5AB22EF938E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BEE8497E7F2F1419FB8D773448C542F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		64078A1E6D7B387BBBA2A686B05662A9 /* YXChannelViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YXChannelViewController.h; path = ChannelPicker/Classes/YXChannelViewController.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		71DEDC22C066F717C69349D7AA4D9F08 /* YXChannelHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YXChannelHeader.m; path = ChannelPicker/Classes/YXChannelHeader.m; sourceTree = "<group>"; };
+		7366C1BA3F458DF40FC5E859AB1FEA9C /* Pods-ChannelPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChannelPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7596BE636C7E5CDC62504963C4D3520B /* Pods-ChannelPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChannelPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7C663CF43604CDC21B565E2C60ABC65B /* Pods_ChannelPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChannelPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E2E8D1FCE70A5FEF43E7A1C78551202 /* ChannelPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChannelPicker.xcconfig; sourceTree = "<group>"; };
+		8FB9E5B6AAD3C0F0999D285CD85E253F /* Pods-ChannelPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChannelPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9084D5BABD9C64EF6E1C1D9BE4BC139D /* ChannelPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChannelPicker-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93DEBD70044F3A83E2F61E02E8E8D7E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9C8C5AEEF889B63C75AB8861CB28E392 /* ChannelPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChannelPicker-dummy.m"; sourceTree = "<group>"; };
+		AA71A334A74B130A0650D3AD2757B90A /* Pods-ChannelPicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChannelPicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B273756F25EAF9A6E46EC799840B6154 /* Pods_ChannelPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChannelPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55F39E8F4E97EF1AB6F1520F00AF6AF /* Pods-ChannelPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChannelPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C0DDB552A6F81AAC274CA6AC4B337759 /* ChannelPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChannelPicker.modulemap; sourceTree = "<group>"; };
+		C66048B1237DA0F67992EEEA65728299 /* ChannelPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChannelPicker-umbrella.h"; sourceTree = "<group>"; };
+		CBF4D00AD2CBDD030604A90669055F55 /* Pods-ChannelPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChannelPicker_Example.modulemap"; sourceTree = "<group>"; };
+		D07333F2BDD1DA8B9DA6367866147BE6 /* YXChannelCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YXChannelCell.h; path = ChannelPicker/Classes/YXChannelCell.h; sourceTree = "<group>"; };
+		DB70CFFD2C5605F728FD0926331C8038 /* YXChannelHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YXChannelHeader.h; path = ChannelPicker/Classes/YXChannelHeader.h; sourceTree = "<group>"; };
+		DEFC326A43B86D25D971648A512915B9 /* Pods-ChannelPicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChannelPicker_Tests-resources.sh"; sourceTree = "<group>"; };
+		E05A44785C1DB7B561EF6406BCF68607 /* YXChannelHeader.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = YXChannelHeader.xib; path = ChannelPicker/Classes/YXChannelHeader.xib; sourceTree = "<group>"; };
+		E65A7355677C3E4CF34F31DEC56829F7 /* Pods-ChannelPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChannelPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC1A44D163D4CE084CB79D8020D65C4C /* Pods-ChannelPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChannelPicker_Example-resources.sh"; sourceTree = "<group>"; };
+		F87B9DE287D0E448003A6F5F94D968F4 /* Pods-ChannelPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChannelPicker_Tests.modulemap"; sourceTree = "<group>"; };
+		F95B793A050BB5272FE330C6FC08C672 /* Pods-ChannelPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChannelPicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		FB1077B873BB60735DE6460E1E0768F2 /* ChannelPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChannelPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49D9E2DCAE0D9B74AB945A5BC4B69078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B6FEA7DBBDA7682A19EBF5057FEB90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CB7459AA897685A172457D36E935E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61F8195B418D994A28E0E900267A617 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD5EED022B44D9FDE13715859BB4488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41AA4C3BD303974A5316128153BD9B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AE03F136F62383BCD2B8C1904054E12 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2651A1A529B76AB72F67B332FB454C89 /* ChannelPicker.podspec */,
+				5BEE8497E7F2F1419FB8D773448C542F /* LICENSE */,
+				93DEBD70044F3A83E2F61E02E8E8D7E6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1137D40DF54F115BAF93AD6596AA1B5F /* Pods-ChannelPicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1509C2BF303624F37B8D121382484162 /* Info.plist */,
+				CBF4D00AD2CBDD030604A90669055F55 /* Pods-ChannelPicker_Example.modulemap */,
+				E65A7355677C3E4CF34F31DEC56829F7 /* Pods-ChannelPicker_Example-acknowledgements.markdown */,
+				4A5384FFA27D8FA97F7445EF9B823503 /* Pods-ChannelPicker_Example-acknowledgements.plist */,
+				4F8B848A0271B6C357D4526EBEC7A2EE /* Pods-ChannelPicker_Example-dummy.m */,
+				288EC26BBF12B0F1C786595F1EA969DD /* Pods-ChannelPicker_Example-frameworks.sh */,
+				EC1A44D163D4CE084CB79D8020D65C4C /* Pods-ChannelPicker_Example-resources.sh */,
+				F95B793A050BB5272FE330C6FC08C672 /* Pods-ChannelPicker_Example-umbrella.h */,
+				7596BE636C7E5CDC62504963C4D3520B /* Pods-ChannelPicker_Example.debug.xcconfig */,
+				8FB9E5B6AAD3C0F0999D285CD85E253F /* Pods-ChannelPicker_Example.release.xcconfig */,
+			);
+			name = "Pods-ChannelPicker_Example";
+			path = "Target Support Files/Pods-ChannelPicker_Example";
+			sourceTree = "<group>";
+		};
+		41D23E8E6768CD0E079E95A2C1443BFE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1137D40DF54F115BAF93AD6596AA1B5F /* Pods-ChannelPicker_Example */,
+				9F4DBE4D242F85BF5032174249B9D9BC /* Pods-ChannelPicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6E2527ABEB9042E807659C4A9E3651D7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8B35A1646195F1E73327B54F0BBF427 /* ChannelPicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6E2527ABEB9042E807659C4A9E3651D7 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BAAB5CE3B73E89C42C3CDD6414DBE306 /* Products */,
+				41D23E8E6768CD0E079E95A2C1443BFE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9F4DBE4D242F85BF5032174249B9D9BC /* Pods-ChannelPicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0ED24B85BC4754A3D0E5D424BA215F42 /* Info.plist */,
+				F87B9DE287D0E448003A6F5F94D968F4 /* Pods-ChannelPicker_Tests.modulemap */,
+				B55F39E8F4E97EF1AB6F1520F00AF6AF /* Pods-ChannelPicker_Tests-acknowledgements.markdown */,
+				7366C1BA3F458DF40FC5E859AB1FEA9C /* Pods-ChannelPicker_Tests-acknowledgements.plist */,
+				4D34EBA7EBB415E7FE180CAFDA6577E9 /* Pods-ChannelPicker_Tests-dummy.m */,
+				AA71A334A74B130A0650D3AD2757B90A /* Pods-ChannelPicker_Tests-frameworks.sh */,
+				DEFC326A43B86D25D971648A512915B9 /* Pods-ChannelPicker_Tests-resources.sh */,
+				16CB3B5242FACCBBEA6D90719E29D60E /* Pods-ChannelPicker_Tests-umbrella.h */,
+				0C1EDDF94E30D9E0965AE8C92963AE7A /* Pods-ChannelPicker_Tests.debug.xcconfig */,
+				3AEE47D361CA8F61804F27BDEBCE7992 /* Pods-ChannelPicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-ChannelPicker_Tests";
+			path = "Target Support Files/Pods-ChannelPicker_Tests";
+			sourceTree = "<group>";
+		};
+		BAAB5CE3B73E89C42C3CDD6414DBE306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB1077B873BB60735DE6460E1E0768F2 /* ChannelPicker.framework */,
+				7C663CF43604CDC21B565E2C60ABC65B /* Pods_ChannelPicker_Example.framework */,
+				B273756F25EAF9A6E46EC799840B6154 /* Pods_ChannelPicker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D8B35A1646195F1E73327B54F0BBF427 /* ChannelPicker */ = {
+			isa = PBXGroup;
+			children = (
+				D07333F2BDD1DA8B9DA6367866147BE6 /* YXChannelCell.h */,
+				34BC50BA160A2A1293B8773CE01AAA69 /* YXChannelCell.m */,
+				23C4AE270A80B7AF596F535995302FA8 /* YXChannelCell.xib */,
+				DB70CFFD2C5605F728FD0926331C8038 /* YXChannelHeader.h */,
+				71DEDC22C066F717C69349D7AA4D9F08 /* YXChannelHeader.m */,
+				E05A44785C1DB7B561EF6406BCF68607 /* YXChannelHeader.xib */,
+				64078A1E6D7B387BBBA2A686B05662A9 /* YXChannelViewController.h */,
+				19CD258526A5B9CB6200AA7129BCD740 /* YXChannelViewController.m */,
+				0AE03F136F62383BCD2B8C1904054E12 /* Pod */,
+				F0B04FB7E3DDA732BE24B3DE2A050C6B /* Support Files */,
+			);
+			name = ChannelPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F0B04FB7E3DDA732BE24B3DE2A050C6B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0DDB552A6F81AAC274CA6AC4B337759 /* ChannelPicker.modulemap */,
+				7E2E8D1FCE70A5FEF43E7A1C78551202 /* ChannelPicker.xcconfig */,
+				9C8C5AEEF889B63C75AB8861CB28E392 /* ChannelPicker-dummy.m */,
+				9084D5BABD9C64EF6E1C1D9BE4BC139D /* ChannelPicker-prefix.pch */,
+				C66048B1237DA0F67992EEEA65728299 /* ChannelPicker-umbrella.h */,
+				51C5FC69C7EF32A63B8B5AB22EF938E5 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ChannelPicker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		689758CF84ABCD46E56DCD445C5E5119 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E0F7162EB2E692E0207689A35C59D6 /* Pods-ChannelPicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BCEBC360600FA78EFB042498622238 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5373BC17B9F78610CD1F667015513E /* Pods-ChannelPicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92FC9B3C9B55BCBD5EC1C75B7D3C0DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFEC89729C9DE0D095AA3F9809E70AAE /* ChannelPicker-umbrella.h in Headers */,
+				4D2DA0998EBCD424974B32F24474E4FB /* YXChannelCell.h in Headers */,
+				F9880DE84EFDC482991B6FBA8445BC9C /* YXChannelHeader.h in Headers */,
+				9E5A9979BA8AFA0696AF44DCB9C8C667 /* YXChannelViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5DD7AAB25C0F1B6602A0218B643FAC85 /* Pods-ChannelPicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56C851D740C71A1BCDB596966A070272 /* Build configuration list for PBXNativeTarget "Pods-ChannelPicker_Tests" */;
+			buildPhases = (
+				60A845CDB3886E2B1E7099E39AFB149B /* Sources */,
+				FCD5EED022B44D9FDE13715859BB4488 /* Frameworks */,
+				A1BCEBC360600FA78EFB042498622238 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ChannelPicker_Tests";
+			productName = "Pods-ChannelPicker_Tests";
+			productReference = B273756F25EAF9A6E46EC799840B6154 /* Pods_ChannelPicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		65B0B3F1E6646615A2D2B8810AE17B02 /* Pods-ChannelPicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E2A4ACA5609713174CA71F1382E9544 /* Build configuration list for PBXNativeTarget "Pods-ChannelPicker_Example" */;
+			buildPhases = (
+				8F42855BD8EF493EF6ADD33CBCD91697 /* Sources */,
+				92CB7459AA897685A172457D36E935E5 /* Frameworks */,
+				689758CF84ABCD46E56DCD445C5E5119 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71186E6C8C7D98FDA2E780883BF58BDA /* PBXTargetDependency */,
+			);
+			name = "Pods-ChannelPicker_Example";
+			productName = "Pods-ChannelPicker_Example";
+			productReference = 7C663CF43604CDC21B565E2C60ABC65B /* Pods_ChannelPicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F88B9972CB40817EB0F97CD69E968664 /* ChannelPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53EC3EECD5ADCB20BB8FB0934143479 /* Build configuration list for PBXNativeTarget "ChannelPicker" */;
+			buildPhases = (
+				D7F576904542E0FDB4EC20B1335F86D1 /* Sources */,
+				49D9E2DCAE0D9B74AB945A5BC4B69078 /* Frameworks */,
+				E92FC9B3C9B55BCBD5EC1C75B7D3C0DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChannelPicker;
+			productName = ChannelPicker;
+			productReference = FB1077B873BB60735DE6460E1E0768F2 /* ChannelPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BAAB5CE3B73E89C42C3CDD6414DBE306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F88B9972CB40817EB0F97CD69E968664 /* ChannelPicker */,
+				65B0B3F1E6646615A2D2B8810AE17B02 /* Pods-ChannelPicker_Example */,
+				5DD7AAB25C0F1B6602A0218B643FAC85 /* Pods-ChannelPicker_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60A845CDB3886E2B1E7099E39AFB149B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F0D58CB4AD4218417EA0D6FD3FE961 /* Pods-ChannelPicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F42855BD8EF493EF6ADD33CBCD91697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A41661E9E25F5BB9E2A98C89261AEB /* Pods-ChannelPicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F576904542E0FDB4EC20B1335F86D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F6537B2F244BB4FA8491207BD551AC /* ChannelPicker-dummy.m in Sources */,
+				F87296C15DDF33EB17AE84DA1967D7AE /* YXChannelCell.m in Sources */,
+				34011F3024D0F662B8C9E35770E1573D /* YXChannelCell.xib in Sources */,
+				D34620D2FC9DF1E6A23396573573A5DC /* YXChannelHeader.m in Sources */,
+				31B180FF0BD4B6C7A3A06BB6C1F2C37A /* YXChannelHeader.xib in Sources */,
+				E9816C03941686956CEBAE1FC1948423 /* YXChannelViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71186E6C8C7D98FDA2E780883BF58BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChannelPicker;
+			target = F88B9972CB40817EB0F97CD69E968664 /* ChannelPicker */;
+			targetProxy = 501E3F629A01EB80C12D7019B6E35E85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		495FACD06EBC8C083B1C90ECEA7A0B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E2E8D1FCE70A5FEF43E7A1C78551202 /* ChannelPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChannelPicker/ChannelPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChannelPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChannelPicker/ChannelPicker.modulemap";
+				PRODUCT_NAME = ChannelPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5D88B0943E294CDD42190AD003EFD525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FB9E5B6AAD3C0F0999D285CD85E253F /* Pods-ChannelPicker_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChannelPicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChannelPicker_Example/Pods-ChannelPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChannelPicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9C3F6167C77055690CD8574E0691893C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7596BE636C7E5CDC62504963C4D3520B /* Pods-ChannelPicker_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChannelPicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChannelPicker_Example/Pods-ChannelPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChannelPicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BFDF6BBF81E7C14623092B109486E63A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E2E8D1FCE70A5FEF43E7A1C78551202 /* ChannelPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChannelPicker/ChannelPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChannelPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChannelPicker/ChannelPicker.modulemap";
+				PRODUCT_NAME = ChannelPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D15CA72A5BED7B4908F35611D2049FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C1EDDF94E30D9E0965AE8C92963AE7A /* Pods-ChannelPicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChannelPicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChannelPicker_Tests/Pods-ChannelPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChannelPicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3C4BE72F867C4C2D164B2E82AF884B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AEE47D361CA8F61804F27BDEBCE7992 /* Pods-ChannelPicker_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChannelPicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChannelPicker_Tests/Pods-ChannelPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChannelPicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56C851D740C71A1BCDB596966A070272 /* Build configuration list for PBXNativeTarget "Pods-ChannelPicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D15CA72A5BED7B4908F35611D2049FA9 /* Debug */,
+				D3C4BE72F867C4C2D164B2E82AF884B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E2A4ACA5609713174CA71F1382E9544 /* Build configuration list for PBXNativeTarget "Pods-ChannelPicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C3F6167C77055690CD8574E0691893C /* Debug */,
+				5D88B0943E294CDD42190AD003EFD525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53EC3EECD5ADCB20BB8FB0934143479 /* Build configuration list for PBXNativeTarget "ChannelPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFDF6BBF81E7C14623092B109486E63A /* Debug */,
+				495FACD06EBC8C083B1C90ECEA7A0B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

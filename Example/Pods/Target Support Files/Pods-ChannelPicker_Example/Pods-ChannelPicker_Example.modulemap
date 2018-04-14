@@ -1,0 +1,6 @@
+framework module Pods_ChannelPicker_Example {
+  umbrella header "Pods-ChannelPicker_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - ChannelPicker (0.1.0)
+
+DEPENDENCIES:
+  - ChannelPicker (from `../`)
+
+EXTERNAL SOURCES:
+  ChannelPicker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ChannelPicker: c194079efd434b6f3837c137fee3efac9576dbb3
+
+PODFILE CHECKSUM: 4d2a064b349aa383d7daf8ec7378dd850cd51952
+
+COCOAPODS: 1.4.0
