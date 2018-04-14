@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ChannelPicker_Example' do
+  pod 'ChannelPicker', :path => '../'
+
+  target 'ChannelPicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
