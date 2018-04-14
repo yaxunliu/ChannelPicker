@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
   s.description      = '用来做频道选择的控制器，可以很方便的订制'
 
-  s.homepage         = 'https://github.com/liuyaxun/ChannelPicker'
+  s.homepage         = 'https://github.com/yaxunliu/ChannelPicker'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liuyaxun' => '1175222300@qq.com' }
   s.source           = { :git => 'https://github.com/liuyaxun/ChannelPicker.git', :tag => s.version.to_s }
