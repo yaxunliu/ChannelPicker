@@ -50,9 +50,9 @@
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    if (self.isAssoical) {
-        [self.titView associateScrollOffset:scrollView.contentOffset];
-    }
+    
+    [self.titView associateScrollOffset:scrollView.contentOffset];
+    
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
