@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.author           = { 'liuyaxun' => '1175222300@qq.com' }
   s.source           = { :git => 'https://github.com/yaxunliu/ChannelPicker.git', :tag => s.version.to_s }
 
-  s.resources = ["Classes/YXChannelCell.xib", "Classes/YXChannelHeader.xib"]
+  s.resources = ["ChannelPicker/Classes/YXChannelCell.xib", "ChannelPicker/Classes/YXChannelHeader.xib"]
 
 
   s.ios.deployment_target = '8.0'
